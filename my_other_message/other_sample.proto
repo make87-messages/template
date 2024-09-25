@@ -5,6 +5,6 @@ import "template/my_message/sample.proto";
 import "template_other/message.proto";
 
 message OtherSampleMessage {
-  repeated make87.template.my_message.SampleMessage sub_messages = 1;
-  make87.template_other.OtherMessage other_message = 2;
+    repeated make87.template.my_message.SampleMessage sub_messages = 1;
+    make87.template_other.OtherMessage other_message = 2;
 }
