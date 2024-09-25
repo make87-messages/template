@@ -1,7 +1,7 @@
 syntax = "proto3";
 package make87.template.my_other_message;
 
-import "template/my_message/Sample.proto";
+import "template/my_message/sample.proto";
 import "template_other/message.proto";
 
 message OtherSampleMessage {
